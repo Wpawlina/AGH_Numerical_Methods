@@ -1,0 +1,9 @@
+*.txt
+*.docx
+*xlsx
+*.pdf
+*.zip
+*.pptx
+*.exe
+.vscode/
+.vs/
