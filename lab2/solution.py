@@ -206,10 +206,7 @@ def f(x):
 
 
 
-# lagrange =Lagrange(-2*math.pi,3*math.pi,f)
 
-# lagrange.set_czybyszew_space(420)
-# print(lagrange.calculate_error())
 n=22
 newton=Newton(-2*math.pi,3*math.pi,f)
 lagrange=Lagrange(-2*math.pi,3*math.pi,f)
@@ -217,45 +214,6 @@ lagrange=Lagrange(-2*math.pi,3*math.pi,f)
 lagrange.set_czybyszew_space(n)
 lagrange.draw()
 print(lagrange.calculate_error())
-
-# lagrange.set_czybyszew_space(n)
-# lagrange.draw()
-
-
-    
-    
-# newton.set_czybyszew_space(9)
-# lagrange.set_czybyszew_space(9)
-# draw_compare(-2*math.pi,3*math.pi,newton.calculate,lagrange.calculate)
-
-
-
-
-
-# newton.draw()
-
-
-
-
-
-
-
-
-# newton = Newton(-2*math.pi,3*math.pi,f)
-# newton.set_line_space(n)
-
-# draw_function(-2*math.pi,3*math.pi,lagrange.calculate)
-
-# draw_function(-2*math.pi,3*math.pi,newton.calculate)
-
-# print(newton.calculate_error())
-# newton.draw()
-
-
-
-#linspace Lagrange  najlepsze przyblizenie 8 efekt Rungego przy 9 i nie ustepuje,Newton najlepsze dla 8 efekt Rungego przy 9 do 66 wtedy blad numeryczny   , Lagrange i Newton rozne od 66
-
-#czybyszew  Lagrange  najlepsze przyblizenie okolo 400 potem blad numeryczny efekt Rungego nie wystepuje ,Newton najlepsze dla 34 efekt Rungego nie wystepuje   , Lagrange i Newton rozne od 35
 
 
 

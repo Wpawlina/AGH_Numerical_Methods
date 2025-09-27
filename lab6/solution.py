@@ -83,7 +83,4 @@ fa=FourierApprox(7,3,f,-3*math.pi,3*math.pi)
 fa.draw()
 print(fa.calculate_error())
 
-
-#12 ekstremów
-        
         

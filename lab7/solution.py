@@ -43,23 +43,11 @@ a=-0.1
 
 
 epss=[1e-2, 1e-3, 1e-4, 1e-5, 1e-7,1e-10,1e-15]
-# calculate_zero_newton(f,df,a,eps=1e-2)
-with open("wyniki.txt", "w") as file:
-    while a<=1.91:
-        for eps in epss:
-            try:
-                x,i=calculate_zero_newton(f,df,a,True,eps=eps)
-                file.write(f"{round(x,6)}-{i};")
-            except ZeroDivisionError:
-                file.write("ZeroDivisionError;")
-            except RuntimeError:
-                file.write("RuntimeError;")
-        file.write("\n")
-        a+=0.1
+
+
     
 
-        
-# funkcja b) n=15, m=13, [-0.1, 1.9] 
+
 
     
         

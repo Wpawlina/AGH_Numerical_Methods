@@ -210,5 +210,4 @@ class QuadraticSpline:
 
 f=lambda x: math.e**(-math.sin(2*x))+math.cos(2*x)
 spline =CubicSpline(f, -2*math.pi, 3*math.pi,45, boundary_condition=False,clamped_values=(-2, -2))
-# spline.draw()
 print(spline.calculate_error())

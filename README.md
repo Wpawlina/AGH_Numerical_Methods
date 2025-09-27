@@ -1,6 +1,6 @@
-AGH UST Course of Date Structures and Algorithms
+AGH UST Course of Numerical Methods
 =============================================== 
-This repository contains the materials for the course of Numerical methods at the AGH University of Science and Technology,
+This repository contains the materials for the course of Numerical Methods at the AGH University of Science and Technology,
 algorithms learned in this course and exercises solved during the course.
 
 
